@@ -45,13 +45,13 @@ const Title = styled.a`
 `;
 type HeaderProp = {
   headertext: string;
-}
+};
 
-const Header = ({ headertext } : HeaderProp) => {
+const Header = ({ headertext }: HeaderProp) => {
   return (
     <Blank>
       <StyledHeader>
-        <Title href="/">{ headertext }</Title>
+        <Title href="/">{headertext}</Title>
         <StyledDiv>
           <StyledP>
             <StyledA href="https://twitter.com/iori0705" target="_blank">

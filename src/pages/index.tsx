@@ -33,9 +33,7 @@ const Index = () => {
       </Head>
       <main>
         <div>
-          <Header
-            headertext="iorin.io"
-          />
+          <Header headertext="iorin.io" />
         </div>
         <Div>
           <TopPhoto />
