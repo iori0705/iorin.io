@@ -92,7 +92,7 @@ const Index: NextPage<Props> = ({ allBlogs }) => {
           <hr />
           <div>
             {allBlogs.map((post) => (
-              <Blogdiv>
+              <Blogdiv key={post.slug}>
                 <a href={`/blog/${post.slug}`} key={post.slug}>
                   <h4>{post.date}</h4>
                   <h3>{post.title}</h3>
