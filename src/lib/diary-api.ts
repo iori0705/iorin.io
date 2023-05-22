@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { glob, globSync, globStream, globStreamSync, Glob } from "glob";
 
 type Post = {
   slug: string;
